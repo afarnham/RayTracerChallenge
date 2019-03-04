@@ -10,7 +10,8 @@
 		93DCB8DD222C88A30003FBC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DCB8DC222C88A30003FBC8 /* AppDelegate.swift */; };
 		93DCB8DF222C88A40003FBC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93DCB8DE222C88A40003FBC8 /* Assets.xcassets */; };
 		93DCB8E2222C88A40003FBC8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93DCB8E0222C88A40003FBC8 /* MainMenu.xib */; };
-		93DCB8EE222C88A40003FBC8 /* RayTracerChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DCB8ED222C88A40003FBC8 /* RayTracerChallengeTests.swift */; };
+		93DCB8EE222C88A40003FBC8 /* TupleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DCB8ED222C88A40003FBC8 /* TupleTests.swift */; };
+		93DCB8F9222C890F0003FBC8 /* RTTuple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DCB8F8222C890F0003FBC8 /* RTTuple.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,8 +32,9 @@
 		93DCB8E3222C88A40003FBC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93DCB8E4222C88A40003FBC8 /* RayTracerChallenge.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RayTracerChallenge.entitlements; sourceTree = "<group>"; };
 		93DCB8E9222C88A40003FBC8 /* RayTracerChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RayTracerChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		93DCB8ED222C88A40003FBC8 /* RayTracerChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RayTracerChallengeTests.swift; sourceTree = "<group>"; };
+		93DCB8ED222C88A40003FBC8 /* TupleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TupleTests.swift; sourceTree = "<group>"; };
 		93DCB8EF222C88A40003FBC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93DCB8F8222C890F0003FBC8 /* RTTuple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTTuple.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				93DCB8E0222C88A40003FBC8 /* MainMenu.xib */,
 				93DCB8E3222C88A40003FBC8 /* Info.plist */,
 				93DCB8E4222C88A40003FBC8 /* RayTracerChallenge.entitlements */,
+				93DCB8F8222C890F0003FBC8 /* RTTuple.swift */,
 			);
 			path = RayTracerChallenge;
 			sourceTree = "<group>";
@@ -86,7 +89,7 @@
 		93DCB8EC222C88A40003FBC8 /* RayTracerChallengeTests */ = {
 			isa = PBXGroup;
 			children = (
-				93DCB8ED222C88A40003FBC8 /* RayTracerChallengeTests.swift */,
+				93DCB8ED222C88A40003FBC8 /* TupleTests.swift */,
 				93DCB8EF222C88A40003FBC8 /* Info.plist */,
 			);
 			path = RayTracerChallengeTests;
@@ -192,6 +195,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93DCB8F9222C890F0003FBC8 /* RTTuple.swift in Sources */,
 				93DCB8DD222C88A30003FBC8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -200,7 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93DCB8EE222C88A40003FBC8 /* RayTracerChallengeTests.swift in Sources */,
+				93DCB8EE222C88A40003FBC8 /* TupleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
